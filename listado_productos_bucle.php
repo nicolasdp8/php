@@ -61,7 +61,7 @@ $aProductos[] = array(
                         <tbody>
                             <?php
                             $contador = 0;
-                            while ($contador<3) { ?>
+                            while ($contador < 3) { ?>
                             <tr>
                                 <td><?php echo $aProductos[$contador]["nombre"] ?></td>
                                 <td><?php echo $aProductos[$contador]["marca"] ?></td>
